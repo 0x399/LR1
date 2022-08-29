@@ -2,9 +2,14 @@ import java.sql.SQLOutput;
 import java.util.Scanner;
 import java.io.*;
 
+/**
+ * @author Sviatoslav
+ */
 public class LR1 {
+    /**
+     * Finding sum of numbers by adding current value to previous value.
+     */
     private static int FibonacciSum(int n) {
-
         int currVal = 1;
         int prevVal = 0;
         int sum = 1;
@@ -19,6 +24,10 @@ public class LR1 {
             sum += currVal;}
         return sum;
     }
+
+    /**
+     * Usable for cmd, unusable for IDE compiler.
+     */
     public static void main(String[] args) {
         int num = 0;
         try {
